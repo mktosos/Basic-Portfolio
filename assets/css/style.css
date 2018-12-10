@@ -1,7 +1,7 @@
 .bigBox {
     width: 1450px;
     height: auto;
-    min-height: 700px;
+    min-height: 800px;
     border: 1px solid #cccccc;
     background-image: url("../images/tileable_wood_texture_@2X.png");
     background-repeat: repeat-x repeat-x;
@@ -64,7 +64,8 @@ section{
     padding: 13px;
     width: 930px;
     margin: auto;
-    background-color: #ffffff
+    background-color: #ffffff;
+    min-height: 500px;
 }
     
 img {
@@ -72,6 +73,12 @@ img {
     height: auto;
     float: left;  
     padding: 25px;
+}
+.portImg{
+    clear: both;
+    width: 30%;
+    height: auto;
+    padding: 15px 0 0 0;
 }
 
 p {
@@ -111,9 +118,25 @@ input {
 }
 
 .button {
-    background-color: teal;
+    background-color: #4aaaa5;
     color: white; 
     font-size: 12px;
     padding: 15px 32px;  
     margin: 4px 2px;
+}
+h4 {
+    color: white;
+    text-align: center;
+}
+.imgNamebar {
+    clear: both;
+    padding-top: 10px;
+    position: relative;
+    bottom: 100px;
+    width: 279px;
+    height: 45px;
+    color:white;
+    background-color: #4aaaa5;
+    z-index: 100;
+    
 }
