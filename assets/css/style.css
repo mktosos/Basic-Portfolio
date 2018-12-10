@@ -80,10 +80,21 @@ p {
     letter-spacing: 1.5;
 }
 
-
+footer{
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    width: 1450px;
+    height: 64px;
+    background-color: #777777;
+    text-align: center;
+    margin: auto;
+    border-top: 8px solid #4aaaa5;
+}
 
 .copyright {
-    clear: both;
-    font-size: x-small;
+    padding-top: 35px;
+    font-size: small;
     text-align: center;
+    color: #cccccc
 }
